@@ -1,0 +1,1336 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta name="google-site-verification" content="ftFOlJETX-2KNjaPh8W6s8lhigItRuu9fOmjHZZ0nY0" />
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <title>Demo</title>
+</head>
+<style type="text/css">
+  table {
+    width: 100%;
+    table-layout: fixed;
+  }
+
+  audio {
+    width: 100%;
+  }
+
+  thead>tr>th:first-child {
+    width: 96px;
+  }
+
+  @media (max-width: 767px) {
+    .big-screen {
+      display: none;
+    }
+  }
+
+  @media (min-width: 767px) {
+    .small-screen {
+      display: none;
+    }
+  }
+</style>
+
+<body>
+  <header class="header">
+    <div class="jumbotron bg-secondary text-center">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-12">
+            <h1><a class="text-light">
+				System Demo from Zheng Lian</a></h1>
+            <p>
+             
+            </p>
+			
+				
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+     
+      
+      <div class="row" id="result">
+        <div class="col-md-12">
+		  <h2>Female->10 speakers</h2>
+                  <div class="big-screen">
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th></th>
+                          <th>Source</th>
+						  <th>Proposed</th>
+						  <th>Target</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+						
+						<tr>
+                          <th scope="row"> SEF1->TEF1</th>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case1/SEF1_E30012.wav" type="audio/wav" />
+                            </audio>
+                          </td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case1/TEF1_SEF1_E30012.wav" type="audio/wav" />
+                            </audio>
+                          </td>
+						  <td>
+                            <audio controls>
+                              <source src="./audio/case2/TEF1.wav" type="audio/wav" />
+                            </audio>
+                          </td>
+                        </tr>
+						
+                        
+                        <tr>
+                          <th scope="row"> SEF1->TEF2</th>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case1/SEF1_E30012.wav" type="audio/wav" />
+                            </audio>
+                          </td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case1/TEF2_SEF1_E30012.wav" type="audio/wav" />
+                            </audio>
+                          </td>
+						  <td>
+                            <audio controls>
+                              <source src="./audio/case2/TEF2.wav" type="audio/wav" />
+                            </audio>
+                          </td>
+                        </tr>
+                        
+                        <tr>
+                          <th scope="row"> SEF1->TEM1</th>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case1/SEF1_E30012.wav" type="audio/wav" />
+                            </audio>
+                          </td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case1/TEM1_SEF1_E30012.wav" type="audio/wav" />
+                            </audio>
+                          </td>
+						  <td>
+                            <audio controls>
+                              <source src="./audio/case2/TEM1.wav" type="audio/wav" />
+                            </audio>
+                          </td>
+                        </tr>
+                        
+                        <tr>
+                          <th scope="row"> SEF1->TEM2</th>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case1/SEF1_E30012.wav" type="audio/wav" />
+                            </audio>
+                          </td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case1/TEM2_SEF1_E30012.wav" type="audio/wav" />
+                            </audio>
+                          </td>
+						  <td>
+                            <audio controls>
+                              <source src="./audio/case2/TEM2.wav" type="audio/wav" />
+                            </audio>
+                          </td>
+                        </tr>
+                        
+                        <tr>
+                          <th scope="row"> SEF1->TFF1</th>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case1/SEF1_E30012.wav" type="audio/wav" />
+                            </audio>
+                          </td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case1/TFF1_SEF1_E30012.wav" type="audio/wav" />
+                            </audio>
+                          </td>
+						  <td>
+                            <audio controls>
+                              <source src="./audio/case2/TFF1.wav" type="audio/wav" />
+                            </audio>
+                          </td>
+                        </tr>
+                        
+                        <tr>
+                          <th scope="row"> SEF1->TFM1</th>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case1/SEF1_E30012.wav" type="audio/wav" />
+                            </audio>
+                          </td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case1/TFM1_SEF1_E30012.wav" type="audio/wav" />
+                            </audio>
+                          </td>
+						  <td>
+                            <audio controls>
+                              <source src="./audio/case2/TFM1.wav" type="audio/wav" />
+                            </audio>
+                          </td>
+                        </tr>
+                        
+                        <tr>
+                          <th scope="row"> SEF1->TGF1</th>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case1/SEF1_E30012.wav" type="audio/wav" />
+                            </audio>
+                          </td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case1/TGF1_SEF1_E30012.wav" type="audio/wav" />
+                            </audio>
+                          </td>
+						  <td>
+                            <audio controls>
+                              <source src="./audio/case2/TGF1.wav" type="audio/wav" />
+                            </audio>
+                          </td>
+                        </tr>
+                        
+                        <tr>
+                          <th scope="row"> SEF1->TGM1</th>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case1/SEF1_E30012.wav" type="audio/wav" />
+                            </audio>
+                          </td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case1/TGM1_SEF1_E30012.wav" type="audio/wav" />
+                            </audio>
+                          </td>
+						  <td>
+                            <audio controls>
+                              <source src="./audio/case2/TGM1.wav" type="audio/wav" />
+                            </audio>
+                          </td>
+                        </tr>
+                        
+                        <tr>
+                          <th scope="row"> SEF1->TMF1</th>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case1/SEF1_E30012.wav" type="audio/wav" />
+                            </audio>
+                          </td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case1/TMF1_SEF1_E30012.wav" type="audio/wav" />
+                            </audio>
+                          </td>
+						  <td>
+                            <audio controls>
+                              <source src="./audio/case2/TMF1.wav" type="audio/wav" />
+                            </audio>
+                          </td>
+                        </tr>
+                        
+                        <tr>
+                          <th scope="row"> SEF1->TMM1</th>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case1/SEF1_E30012.wav" type="audio/wav" />
+                            </audio>
+                          </td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case1/TMM1_SEF1_E30012.wav" type="audio/wav" />
+                            </audio>
+                          </td>
+						  <td>
+                            <audio controls>
+                              <source src="./audio/case2/TMM1.wav" type="audio/wav" />
+                            </audio>
+                          </td>
+                        </tr>
+                        
+                      </tbody>
+                    </table>
+                  </div>
+                  
+                  <div class="small-screen">
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th>SEF1->TEF1</th>
+                          <th></th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Source</td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case1/SEF1_E30012.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                        </tr>
+                        
+                        <tr>
+                          <td>Proposed</td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case1/TEF1_SEF1_E30012.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Target</td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case2/TEF1.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  
+                    
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th>SEF1->TEF2</th>
+                          <th></th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Source</td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case1/SEF1_E30012.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                        </tr>
+                        
+                        <tr>
+                          <td>Proposed</td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case1/TEF2_SEF1_E30012.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Target</td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case2/TEF2.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    
+                    
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th>SEF1->TEM1</th>
+                          <th></th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Source</td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case1/SEF1_E30012.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                        </tr>
+                        
+                        <tr>
+                          <td>Proposed</td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case1/TEM1_SEF1_E30012.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Target</td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case2/TEM1.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    
+                    
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th>SEF1->TEM2</th>
+                          <th></th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Source</td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case1/SEF1_E30012.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                        </tr>
+                        
+                        <tr>
+                          <td>Proposed</td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case1/TEM2_SEF1_E30012.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Target</td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case2/TEM2.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    
+                    
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th>SEF1->TFF1</th>
+                          <th></th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Source</td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case1/SEF1_E30012.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                        </tr>
+                        
+                        <tr>
+                          <td>Proposed</td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case1/TFF1_SEF1_E30012.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Target</td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case2/TFF1.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    
+                    
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th>SEF1->TFM1</th>
+                          <th></th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Source</td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case1/SEF1_E30012.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                        </tr>
+                        
+                        <tr>
+                          <td>Proposed</td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case1/TFM1_SEF1_E30012.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Target</td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case2/TFM1.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    
+                    
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th>SEF1->TGF1</th>
+                          <th></th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Source</td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case1/SEF1_E30012.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                        </tr>
+                        
+                        <tr>
+                          <td>Proposed</td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case1/TGF1_SEF1_E30012.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Target</td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case2/TGF1.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th>SEF1->TGM1</th>
+                          <th></th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Source</td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case1/SEF1_E30012.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                        </tr>
+                        
+                        <tr>
+                          <td>Proposed</td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case1/TGM1_SEF1_E30012.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Target</td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case2/TGM1.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th>SEF1->TMF1</th>
+                          <th></th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Source</td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case1/SEF1_E30012.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                        </tr>
+                        
+                        <tr>
+                          <td>Proposed</td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case1/TMF1_SEF1_E30012.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Target</td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case2/TMF1.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th>SEF1->TMM1</th>
+                          <th></th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Source</td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case1/SEF1_E30012.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                        </tr>
+                        
+                        <tr>
+                          <td>Proposed</td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case1/TMM1_SEF1_E30012.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Target</td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case2/TMM1.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    
+                  </div>
+		  <hr>
+		  
+        
+        
+        
+        <div class="col-md-12">
+		  <h2>Male->10 speakers</h2>
+                  <div class="big-screen">
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th></th>
+                          <th>Source</th>
+						  <th>Proposed</th>
+						  <th>Target</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+						
+						<tr>
+                          <th scope="row"> SEM1->TEF1</th>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case3/SEM1_E30019.wav" type="audio/wav" />
+                            </audio>
+                          </td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case3/TEF1_SEM1_E30019.wav" type="audio/wav" />
+                            </audio>
+                          </td>
+						  <td>
+                            <audio controls>
+                              <source src="./audio/case2/TEF1.wav" type="audio/wav" />
+                            </audio>
+                          </td>
+                        </tr>
+						
+                        <tr>
+                          <th scope="row"> SEM1->TEF2</th>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case3/SEM1_E30019.wav" type="audio/wav" />
+                            </audio>
+                          </td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case3/TEF2_SEM1_E30019.wav" type="audio/wav" />
+                            </audio>
+                          </td>
+						  <td>
+                            <audio controls>
+                              <source src="./audio/case2/TEF2.wav" type="audio/wav" />
+                            </audio>
+                          </td>
+                        </tr>
+						
+                        
+                        <tr>
+                          <th scope="row"> SEM1->TEM1</th>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case3/SEM1_E30019.wav" type="audio/wav" />
+                            </audio>
+                          </td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case3/TEM1_SEM1_E30019.wav" type="audio/wav" />
+                            </audio>
+                          </td>
+						  <td>
+                            <audio controls>
+                              <source src="./audio/case2/TEM1.wav" type="audio/wav" />
+                            </audio>
+                          </td>
+                        </tr>
+						
+                        
+                        <tr>
+                          <th scope="row"> SEM1->TEM2</th>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case3/SEM1_E30019.wav" type="audio/wav" />
+                            </audio>
+                          </td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case3/TEM2_SEM1_E30019.wav" type="audio/wav" />
+                            </audio>
+                          </td>
+						  <td>
+                            <audio controls>
+                              <source src="./audio/case2/TEM2.wav" type="audio/wav" />
+                            </audio>
+                          </td>
+                        </tr>
+						
+                        
+                        <tr>
+                          <th scope="row"> SEM1->TFF1</th>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case3/SEM1_E30019.wav" type="audio/wav" />
+                            </audio>
+                          </td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case3/TFF1_SEM1_E30019.wav" type="audio/wav" />
+                            </audio>
+                          </td>
+						  <td>
+                            <audio controls>
+                              <source src="./audio/case2/TFF1.wav" type="audio/wav" />
+                            </audio>
+                          </td>
+                        </tr>
+						
+                        
+                        <tr>
+                          <th scope="row"> SEM1->TFM1</th>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case3/SEM1_E30019.wav" type="audio/wav" />
+                            </audio>
+                          </td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case3/TFM1_SEM1_E30019.wav" type="audio/wav" />
+                            </audio>
+                          </td>
+						  <td>
+                            <audio controls>
+                              <source src="./audio/case2/TFM1.wav" type="audio/wav" />
+                            </audio>
+                          </td>
+                        </tr>
+						
+                        
+                        <tr>
+                          <th scope="row"> SEM1->TGF1</th>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case3/SEM1_E30019.wav" type="audio/wav" />
+                            </audio>
+                          </td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case3/TGF1_SEM1_E30019.wav" type="audio/wav" />
+                            </audio>
+                          </td>
+						  <td>
+                            <audio controls>
+                              <source src="./audio/case2/TGF1.wav" type="audio/wav" />
+                            </audio>
+                          </td>
+                        </tr>
+						
+                        
+                        <tr>
+                          <th scope="row"> SEM1->TGM1</th>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case3/SEM1_E30019.wav" type="audio/wav" />
+                            </audio>
+                          </td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case3/TGM1_SEM1_E30019.wav" type="audio/wav" />
+                            </audio>
+                          </td>
+						  <td>
+                            <audio controls>
+                              <source src="./audio/case2/TGM1.wav" type="audio/wav" />
+                            </audio>
+                          </td>
+                        </tr>
+						
+                        
+                        <tr>
+                          <th scope="row"> SEM1->TMF1</th>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case3/SEM1_E30019.wav" type="audio/wav" />
+                            </audio>
+                          </td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case3/TMF1_SEM1_E30019.wav" type="audio/wav" />
+                            </audio>
+                          </td>
+						  <td>
+                            <audio controls>
+                              <source src="./audio/case2/TMF1.wav" type="audio/wav" />
+                            </audio>
+                          </td>
+                        </tr>
+						
+                        
+                        <tr>
+                          <th scope="row"> SEM1->TMM1</th>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case3/SEM1_E30019.wav" type="audio/wav" />
+                            </audio>
+                          </td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case3/TMM1_SEM1_E30019.wav" type="audio/wav" />
+                            </audio>
+                          </td>
+						  <td>
+                            <audio controls>
+                              <source src="./audio/case2/TMM1.wav" type="audio/wav" />
+                            </audio>
+                          </td>
+                        </tr>
+						
+                        
+                      </tbody>
+                    </table>
+                  </div>
+                  
+                  <div class="small-screen">
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th>SEM1->TEF1</th>
+                          <th></th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Source</td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case3/SEM1_E30019.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                        </tr>
+                        
+                        <tr>
+                          <td>Proposed</td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case3/TEF1_SEM1_E30019.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Target</td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case2/TEF1.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  
+                  
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th>SEM1->TEF2</th>
+                          <th></th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Source</td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case3/SEM1_E30019.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                        </tr>
+                        
+                        <tr>
+                          <td>Proposed</td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case3/TEF2_SEM1_E30019.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Target</td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case2/TEF2.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  
+                    
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th>SEM1->TEM1</th>
+                          <th></th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Source</td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case3/SEM1_E30019.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                        </tr>
+                        
+                        <tr>
+                          <td>Proposed</td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case3/TEM1_SEM1_E30019.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Target</td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case2/TEM1.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  
+                    
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th>SEM1->TEM2</th>
+                          <th></th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Source</td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case3/SEM1_E30019.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                        </tr>
+                        
+                        <tr>
+                          <td>Proposed</td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case3/TEM2_SEM1_E30019.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Target</td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case2/TEM2.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    
+                    
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th>SEM1->TFF1</th>
+                          <th></th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Source</td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case3/SEM1_E30019.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                        </tr>
+                        
+                        <tr>
+                          <td>Proposed</td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case3/TFF1_SEM1_E30019.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Target</td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case2/TFF1.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th>SEM1->TFM1</th>
+                          <th></th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Source</td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case3/SEM1_E30019.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                        </tr>
+                        
+                        <tr>
+                          <td>Proposed</td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case3/TFM1_SEM1_E30019.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Target</td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case2/TFM1.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  
+                    
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th>SEM1->TGF1</th>
+                          <th></th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Source</td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case3/SEM1_E30019.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                        </tr>
+                        
+                        <tr>
+                          <td>Proposed</td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case3/TGF1_SEM1_E30019.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Target</td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case2/TGF1.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  
+                    
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th>SEM1->TGM1</th>
+                          <th></th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Source</td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case3/SEM1_E30019.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                        </tr>
+                        
+                        <tr>
+                          <td>Proposed</td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case3/TGM1_SEM1_E30019.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Target</td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case2/TGM1.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  
+                    
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th>SEM1->TMF1</th>
+                          <th></th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Source</td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case3/SEM1_E30019.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                        </tr>
+                        
+                        <tr>
+                          <td>Proposed</td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case3/TMF1_SEM1_E30019.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Target</td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case2/TMF1.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  
+                    
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th>SEM1->TMM1</th>
+                          <th></th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Source</td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case3/SEM1_E30019.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                        </tr>
+                        
+                        <tr>
+                          <td>Proposed</td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case3/TMM1_SEM1_E30019.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Target</td>
+                          <td>
+                            <audio controls>
+                              <source src="./audio/case2/TMM1.wav" type="audio/wav" />
+                              Your browser does not support the audio element.
+                            </audio>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  
+                    
+                    
+                  </div>
+		  <hr>
+		  
+          
+          
+          
+      <hr>
+      <!-- <div class="row" id="contact">
+          <div class="col">
+            <h2>Contact</h2>
+            <div></div>
+          </div>
+        </div> -->
+    </div>
+  </main>
+  <footer class="bg-secondary text-light mt-4 pt-3 pb-2 ">
+    <div class="container">
+      <p class="text-center">
+        <small>
+          Towards Fine-Grained Prosody Control for Voice Conversion
+          <br>
+          <a class="text-light"><strong>Zheng Lian</strong></a> |
+          lianzheng2016@ia.ac.cn
+        </small>
+      </p>
+    </div>
+  </footer>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
